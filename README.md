@@ -1,49 +1,70 @@
-project name: Food Expiry Tracker System
+# Grocery GoON - Client Side
 
-Project Overview and Discussion:
-The **Food Expiry Tracker System** is a full-stack web application that helps users track food items, monitor expiry dates, and get alerts for expiring items to reduce food waste. This system empowers users to take control of their food storage, reduce waste, and manage their kitchen inventory with ease.
-It features authentication, secure database handling, responsive design, CRUD operations, and useful insights — all designed with recruiter-friendly UI/UX in mind.
+Welcome to the **Grocery GoON** client-side application! This project is the frontend for the Grocery GoON platform, providing users with a seamless grocery shopping experience.
 
+## Features
 
-#[Visit Live Website] : https://warm-dieffenbachia-f5c379.netlify.app/
+- User authentication and registration
+- Browse and search grocery items
+- Add items to cart and manage cart
+- Place and track orders
+- Responsive design for mobile and desktop
 
+## Technologies Used
 
+- React
+- Redux (if applicable)
+- React Router
+- Axios (for API requests)
+- CSS/SCSS or styled-components
 
-##  Key Features
+## Getting Started
 
-.Firebase Authentication (Email/Password & Google Login)  
-.JWT Secured Protected Routes  
-.Add, View, Update, Delete food items  
-.Responsive design for all screen sizes  
-.View Nearly Expired & Expired items  
-.Search and filter foods by name or category  
-.Countdown timer for expiry date  
-.Add personal notes for food items  
-.Framer Motion animations  
-.Server-side MongoDB filtering with pagination  
-.Error handling & confirmation dialogs using SweetAlert2  
-.Dashboard and private route protection
+### Prerequisites
 
+- Node.js (v14 or higher)
+- npm or yarn
 
+### Installation
 
- # Client Side (Frontend)
-.React
-.React Router 
-.Tailwind CSS
-.DaisyUI
-.Firebase
-.Framer Motion
-.Axios
-.SweetAlert2
+```bash
+git clone https://github.com/yourusername/grocery-goon.git
+cd grocery-goon
+npm install
+```
 
+### Running the App
 
-# Server Side (Backend)
-.Express.js
-.MongoDB (MongoDB Atlas)
-.CORS
-.Dotenv
-.Cookie-parser
-.JSON Web Token (JWT)
+```bash
+npm start
+```
 
+The app will run at `http://localhost:3000`.
 
- ##Client Side (`.env`)
+## Folder Structure
+
+```
+/src
+    /components
+    /pages
+    /redux
+    /assets
+    App.js
+    index.js
+```
+
+## API Integration
+
+The client communicates with the Grocery GoON backend via RESTful APIs. Update the API base URL in the configuration as needed.
+
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests for improvements.
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+*Happy shopping with Grocery GoON!*
